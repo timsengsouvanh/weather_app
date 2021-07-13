@@ -1,4 +1,27 @@
 html, body {
     margin: 0 auto;
     box-sizing: border-box;
+    display: flex;
+
+}
+
+#main {
+    background-color: pink;
+    width: 600px;
+    margin-top: 3rem;
+}
+
+#main-top {
+    
+    display: flex;
+    justify-content: space-around
+}
+
+#city-name {
+    font-size: 2rem;
+}
+
+#temp {
+    display: flex;
+    gap: 2rem;
 }
