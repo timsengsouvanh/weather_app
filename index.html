@@ -10,15 +10,51 @@
     <div class="div" id="main">
         <div id="main-top">
             <div id="city">
-                <div id="city-name">London</div>
-                <div id="temp">
-                    <div id="max-temp">Max:</div>
-                    <div id="min-temp">Min:</div>
+                <div id="city-name"></div>
+                <div id="minmaxtemp">
+                    <div id="min-temp"></div>
+                    <div id="max-temp"></div>
                 </div>
             </div>
-            <div id="weather-icon">XD</div>
+            <div id="weather">
+                <div id="currentweather"></div>
+                <img id="weather-icon"></img>
+            </div>
+            
         </div>
-        <div id="main-bottom"></div>
+        <div id="main-bottom">
+            <div id="forecast-container">
+                <div id="day1" class="daily">
+                    <img id="day1icon" class="weather-icon-daily"></img>
+                    <div id="day1name"></div>
+                    <div id="day1temp"></div>
+                </div>
+                <div id="day2" class="daily">
+                    <img id="day2icon" class="weather-icon-daily"></img>
+                    <div id="day2name"></div>
+                    <div id="day2temp"></div>
+                </div>
+                <div id="day3" class="daily">
+                    <img id="day3icon" class="weather-icon-daily"></img>
+                    <div id="day3name"></div>
+                    <div id="day3temp"></div>
+                </div>
+                <div id="day4" class="daily">
+                    <img id="day4icon" class="weather-icon-daily"></img>
+                    <div id="day4name"></div>
+                    <div id="day4temp"></div>
+                </div>
+                <div id="day5" class="daily">
+                    <img id="day5icon" class="weather-icon-daily"></img>
+                    <div id="day5name"></div>
+                    <div id="day5temp"></div>
+                </div>
+            </div>
+        </div>      
+    </div>
+    <div id="search-container">
+        <input type='text' placeholder="search city">
+        <button type="submit" id='sub'>Submit</button>
     </div>
 </body>
 <script src="script.js"></script>
